@@ -1,4 +1,5 @@
 import './App.css';
+import UseCallback from './components/UseCallback';
 import UseEffect from './components/UseEffect';
 import UseMemo from './components/UseMemo';
 import UseRef from './components/UseRef';
@@ -10,7 +11,8 @@ function App() {
   {/* <UseState /> */}
   {/* <UseEffect /> */}
   {/* <UseRef /> */}
-  <UseMemo />
+  {/* <UseMemo /> */}
+  <UseCallback />
   </>
   );
 }
