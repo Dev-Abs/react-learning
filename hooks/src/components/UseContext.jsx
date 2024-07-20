@@ -8,7 +8,7 @@
 // 3. Use useContext hook to access the data from the context.
 // 4. Pass the context value to the provider.
 // 5. Use the context value in the child component.
-
+// in simple terms crerating, providing and consuming context
 import React from 'react'
 
 const UseContext = () => {
