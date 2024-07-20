@@ -10,12 +10,15 @@
 // 5. Use the context value in the child component.
 // in simple terms crerating, providing and consuming context
 import React from 'react'
+import Profile from './Profile'
+import Footer from './Footer'
 
 const UseContext = () => {
   return (
-    <div>
-      
-    </div>
+    <h1>
+        <Profile />
+        <Footer />
+    </h1>
   )
 }
 
